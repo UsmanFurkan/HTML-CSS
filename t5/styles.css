@@ -1,0 +1,78 @@
+h1 {
+  color: orange;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  color: slategray;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+div {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 20px auto;
+  border: 4px solid crimson;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.title {
+  color: purple; 
+  text-decoration: underline;
+}
+
+.primary {
+  color: royalblue !important; 
+  font-weight: bold;
+}
+
+.special {
+  background-color: lightyellow;
+  padding: 10px;
+  border: 2px dashed teal;
+}
+
+.primary.secondary {
+  background-color: lightgreen;  
+  border: 3px solid green;
+}
+
+.content p {
+  color: darkgreen;              
+  font-style: italic;
+}
+
+a[href] {
+  color: darkorange;
+  text-decoration: none;
+}
+
+a[href*="example"] {            
+  background-color: yellow;
+  padding: 2px 5px;
+}
+
+a[href$=".pdf"] {               
+  font-weight: bold;
+  color: crimson;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid gray;
+  display: inline-block;
+}
+
+h1.title {
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
